@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realidad Virtual</title>
+    <style>
+        body {
+            background-color: #eeeeee;
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #9c27b0;
+            text-align: center;
+            font-size: 3em;
+            animation: titleAnimation 3s ease-out infinite;
+        }
+        @keyframes titleAnimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .content {
+            font-size: 1.2em;
+            margin-top: 20px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .volver {
+            display: block;
+            background-color: #9c27b0;
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+        .volver:hover {
+            background-color: #8e24aa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Realidad Virtual</h1>
+    <div class="container">
+        <img src="real.jpg" alt="Realidad Virtual">
+        <video controls>
+            <source src="rv.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
+    <div class="content">
+        <p>
+            La Realidad Virtual (VR) es una tecnología que crea una simulación de un entorno o una situación a través de dispositivos como cascos o gafas VR. Permite a los usuarios interactuar con un entorno tridimensional generado por computadora, brindando una experiencia inmersiva.
+        </p>
+        <p>
+            Se utiliza en una variedad de campos, como los videojuegos, la medicina, la educación, el entretenimiento y la simulación de entrenamiento. La VR ha revolucionado la manera en que experimentamos el mundo digital.
+        </p>
+        <p>
+            En la industria del entretenimiento, los videojuegos en VR ofrecen una experiencia mucho más inmersiva, mientras que en la medicina se usa para simular procedimientos quirúrgicos o terapias de exposición.
+        </p>
+    </div>
+    <a href="file:///E:/proyectooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo/menu.html" class="volver">Volver al Menú</a>
+</body>
+</html>
